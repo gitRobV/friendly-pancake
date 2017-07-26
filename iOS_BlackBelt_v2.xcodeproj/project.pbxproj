@@ -8,22 +8,28 @@
 
 /* Begin PBXBuildFile section */
 		1841461F1F29128E00B04FF1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1841461E1F29128E00B04FF1 /* AppDelegate.swift */; };
-		184146211F29128E00B04FF1 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 184146201F29128E00B04FF1 /* ViewController.swift */; };
+		184146211F29128E00B04FF1 /* ContactListTableVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 184146201F29128E00B04FF1 /* ContactListTableVC.swift */; };
 		184146241F29128E00B04FF1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 184146221F29128E00B04FF1 /* Main.storyboard */; };
 		184146271F29128E00B04FF1 /* iOS_BlackBelt_v2.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 184146251F29128E00B04FF1 /* iOS_BlackBelt_v2.xcdatamodeld */; };
 		184146291F29128E00B04FF1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 184146281F29128E00B04FF1 /* Assets.xcassets */; };
 		1841462C1F29128E00B04FF1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1841462A1F29128E00B04FF1 /* LaunchScreen.storyboard */; };
+		184146341F29136600B04FF1 /* ContactCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 184146331F29136600B04FF1 /* ContactCell.swift */; };
+		18C079E01F292F3800ACBD8F /* ViewContactVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18C079DF1F292F3800ACBD8F /* ViewContactVC.swift */; };
+		18E1CB201F291A12003A6F07 /* ContactActionVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18E1CB1F1F291A12003A6F07 /* ContactActionVC.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		1841461B1F29128E00B04FF1 /* iOS_BlackBelt_v2.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iOS_BlackBelt_v2.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1841461E1F29128E00B04FF1 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		184146201F29128E00B04FF1 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		184146201F29128E00B04FF1 /* ContactListTableVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactListTableVC.swift; sourceTree = "<group>"; };
 		184146231F29128E00B04FF1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		184146261F29128E00B04FF1 /* iOS_BlackBelt_v2.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = iOS_BlackBelt_v2.xcdatamodel; sourceTree = "<group>"; };
 		184146281F29128E00B04FF1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		1841462B1F29128E00B04FF1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		1841462D1F29128E00B04FF1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		184146331F29136600B04FF1 /* ContactCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ContactCell.swift; sourceTree = "<group>"; };
+		18C079DF1F292F3800ACBD8F /* ViewContactVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewContactVC.swift; sourceTree = "<group>"; };
+		18E1CB1F1F291A12003A6F07 /* ContactActionVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ContactActionVC.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,7 +63,10 @@
 			isa = PBXGroup;
 			children = (
 				1841461E1F29128E00B04FF1 /* AppDelegate.swift */,
-				184146201F29128E00B04FF1 /* ViewController.swift */,
+				184146201F29128E00B04FF1 /* ContactListTableVC.swift */,
+				18E1CB1F1F291A12003A6F07 /* ContactActionVC.swift */,
+				18C079DF1F292F3800ACBD8F /* ViewContactVC.swift */,
+				184146331F29136600B04FF1 /* ContactCell.swift */,
 				184146221F29128E00B04FF1 /* Main.storyboard */,
 				184146281F29128E00B04FF1 /* Assets.xcassets */,
 				1841462A1F29128E00B04FF1 /* LaunchScreen.storyboard */,
@@ -140,7 +149,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				184146211F29128E00B04FF1 /* ViewController.swift in Sources */,
+				18C079E01F292F3800ACBD8F /* ViewContactVC.swift in Sources */,
+				184146341F29136600B04FF1 /* ContactCell.swift in Sources */,
+				18E1CB201F291A12003A6F07 /* ContactActionVC.swift in Sources */,
+				184146211F29128E00B04FF1 /* ContactListTableVC.swift in Sources */,
 				184146271F29128E00B04FF1 /* iOS_BlackBelt_v2.xcdatamodeld in Sources */,
 				1841461F1F29128E00B04FF1 /* AppDelegate.swift in Sources */,
 			);
@@ -308,6 +320,7 @@
 				184146321F29128E00B04FF1 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
